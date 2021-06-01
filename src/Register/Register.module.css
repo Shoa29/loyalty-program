@@ -1,0 +1,392 @@
+.containerfluid2{
+    text-align: center;
+    width:100%;
+    height:1400px;
+    margin-top:2%;
+    background-color: #159b82;
+    border-radius: 80px 80px 0px 0px;
+}
+.containerfluid1{
+    text-align: center;
+    width:100%;
+    height:520px;
+    margin-top:3%;
+    background-color: #159b82;
+    border-radius: 80px 80px 0px 0px;
+}
+
+.trophy>a>img{
+    display:block;
+    margin:auto;
+}
+.title{
+    color:#159b82;
+    text-align: center;
+}
+.text{
+    padding-top:2%;
+    color:white;
+    text-align: center;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.text1{
+    padding-top:2%;
+    color:white;
+    text-align: center;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.form{
+    text-align: center;
+    align-items:center ;
+}
+
+.regform>input[type=text], .regform>input[type=date], .regform>input[type=password], [type=email]{
+    width:300px;
+    border: none;
+    border-bottom:2.5px solid white;
+    background-color: transparent;
+    color:white;
+    padding: 12px 20px;
+    outline: none;
+    margin-top:15px;
+}
+.regform>input::placeholder{
+    color:rgba(255, 255, 255, 0.842);
+}
+.regform>input[type=phone]{
+    width:350px;
+    border: none;
+    border-bottom:2.5px solid white;
+    background-color: transparent;
+    color:white;
+    padding: 12px 20px;
+    outline: none;
+    margin-top: 7%;
+}
+.regform>select{
+    width:120px;
+    border: none;
+    border-bottom:2.5px solid white;
+    background-color: transparent;
+    color:white;
+    padding: 12px 20px;
+    outline: none;
+    margin-top: 7%;
+    margin-right:2%;
+}
+option{
+    background-color: #159b82;
+
+}
+.regform>input::placeholder{
+    color:rgba(255, 255, 255, 0.842);
+}
+.regbutton{
+    padding:15px 10px;
+    width:150px;
+    background-color:white;
+    color:#159b82;
+    border-radius: 50px;
+    outline: none;
+    font-weight: bold;
+    margin-top: 3.5%;
+    font-size: large;
+    border: 1px solid #159b82;
+    cursor: pointer;
+}
+.regbutton:hover{
+    transition:0.3s linear;
+    background-color:transparent;
+    color:white;
+    border:1px solid white;
+}
+.login{
+    color:rgba(255, 255, 255, 0.842);
+}
+.acc{
+    margin-top:4%;
+}
+.in{
+    width:180px !important;
+}
+.change{
+    color:white;
+    cursor: pointer;
+    padding-bottom:-20px;
+}
+.change:hover{
+    transition: 0.3s linear;
+    color: rgba(255, 255, 255, 0.678);
+}
+.otp{
+    margin-top: 5% !important;
+}
+.verified{
+
+}
+.complete{
+
+}
+.regbtn{
+    padding:15px 10px;
+    width:250px;
+    background-color:white;
+    color:#159b82;
+    border-radius: 80px;
+    outline: none;
+    font-weight: bold;
+    margin-top: 3%;
+    font-size: large;
+    border: 1px solid #159b82;
+    cursor: pointer;
+}
+.regbtn:hover{
+    transition:0.3s linear;
+    background-color:transparent;
+    color:white;
+    border:1px solid white;
+}
+h3{
+    color:white;
+}
+.shared1{
+    width:150px !important;
+    margin-right: 2.5%;
+}
+.shared2{
+    width:150px !important;
+    margin-left: 2.5%; 
+}
+
+.regform>input[type=date]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+@media only screen and (max-width: 600px) {
+    .login{
+        margin-top:15%;
+        font-size: small;
+
+
+    }
+    .containerfluid1{
+        height:450px;
+    }
+    .containerfluid2{
+        height:fit-content;
+    }
+    .trophy>a>img{
+        width:70px;
+        height:70px;
+    }
+    .text>p{
+        font-size: 16px;
+        text-align: left;
+        margin-left: 5%;
+        
+    }
+    .text>h4{
+        
+        text-align: justify;
+        margin-left: 8%;
+    }
+    .regbutton{
+        padding:10px 7px;
+        width:120px;
+        background-color:white;
+        color:#159b82;
+        border-radius: 35px;
+        outline: none;
+        font-weight: bold;
+        margin-top: 7%;
+        font-size: medium;
+        border: 1px solid #159b82;
+        cursor: pointer;
+    }
+    .acc{
+        margin-top:20%;
+        font-size: small;
+    }
+
+    .regform>input.otp{
+        margin-top: 13% !important;
+        width:150px !important;
+    }
+    
+    .text1>p{
+        font-size: 16px;
+        text-align: left;
+        margin-left: 5%;
+        margin-top:10%;
+    }
+    .regform>input[type=text], .regform>input[type=date], .regform>input[type=password], .regform>input[type=email]{
+        width:280px;
+        border: none;
+        border-bottom:2.5px solid white;
+        background-color: transparent;
+        color:white;
+        padding: 12px 20px;
+        outline: none;
+        margin-top:15px;
+    }
+    .regform>input[type=phone]{
+        width:150px !important;
+
+
+    }
+    
+    /*Reg3*/
+    h3{
+        font-size: smaller;
+    }
+    .shared1{
+        width:110px !important;
+        margin-right: 2.5%;
+    }
+    .shared2{
+        width:110px !important;
+        margin-left: 2.5%; 
+    }
+}
+
+@media only screen and (min-height:650px) and (max-height: 900px) {
+    .containerfluid1{
+        height:750px;
+    }
+    .containerfluid2{
+        height:1250px;
+    }
+}
+
+@media only screen and (min-width:270px) and (max-width: 350px) {
+    .regform>input[type=text], .regform>input[type=date], .regform>input[type=password], .regform>input[type=email]{
+        width:220px;
+        border: none;
+        border-bottom:2.5px solid white;
+        background-color: transparent;
+        color:white;
+        padding: 12px 20px;
+        outline: none;
+        margin-top:15px;
+    }
+    .regform>input[type=phone]{
+        width:100px !important;
+
+
+    }
+    .regform>select{
+        width:110px;
+        margin-right: 3%;
+    }
+    .shared1{
+        width:100px !important;
+        margin-right: 2.5%;
+    }
+    .shared2{
+        width:100px !important;
+        margin-left: 2.5%; 
+    }
+
+}
+@media only screen and (min-height:900px) and (max-height: 1100px) {
+    .containerfluid1{
+        height:750px;
+    }
+    .containerfluid2{
+        height:1250px;
+    }
+    .text{
+        font-size: large;
+    }
+    .acc{
+        margin-top: 30%;
+    }
+}
+@media only screen and (min-width:700px) and (max-width: 900px) {
+    .regform>input[type=text], .regform>input[type=date], .regform>input[type=password], .regform>input[type=email]{
+        width:520px;
+        border: none;
+        border-bottom:2.5px solid white;
+        background-color: transparent;
+        color:white;
+        padding: 12px 20px;
+        outline: none;
+        margin-top:15px;
+    }
+    .regform>input[type=email]{
+        width:480px;
+
+
+    }
+    .shared1{
+        width:240px !important;
+        margin-right: 2.5%;
+    }
+    .shared2{
+        width:240px !important;
+        margin-left: 2.5%; 
+    }
+}
+@media only screen and (min-width:920px) and (max-width: 1100px) {
+    .regform>input[type=text], .regform>input[type=date], .regform>input[type=password], .regform>input[type=email]{
+        width:720px;
+        border: none;
+        border-bottom:2.5px solid white;
+        background-color: transparent;
+        color:white;
+        padding: 12px 20px;
+        outline: none;
+        margin-top:15px;
+    }
+    .regform>input[type=phone]{
+        width:450px;
+
+
+    }
+    .shared1{
+        width:350px !important;
+        margin-right: 2.5%;
+    }
+    .shared2{
+        width:350px !important;
+        margin-left: 2.5%; 
+    }
+}
+@media only screen and (min-height:1120px) and (max-height: 1400px) {
+    .containerfluid1{
+        height:1150px;
+    }
+    .containerfluid2{
+        height:1250px;
+    }
+    .text{
+        font-size: larger;
+    }
+    .acc{
+        margin-top: 30%;
+    }
+    .regbutton{
+        padding:15px 10px;
+        width:150px;
+        background-color:white;
+        color:#159b82;
+        border-radius: 35px;
+        outline: none;
+        font-weight: bold;
+        margin-top: 7%;
+        font-size: large;
+        border: 1px solid #159b82;
+        cursor: pointer;
+    }
+    h3{
+        font-size: larger;
+    }
+}
+@media only screen and (max-width:300px) {
+    .containerfluid1, .containerfluid2{
+        width:300px;
+    }
+}
